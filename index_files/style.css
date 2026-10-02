@@ -3,15 +3,11 @@
     margin: 0;
 }
 
-
 .text_section
 {
-    /*! max-width: 800px; */
     width: 550px;
     margin: 185px 0 0 198px;
-    /*! display: inline-block; */
     float: left;
-    overflow: hidden;
 }
 
 
@@ -22,13 +18,12 @@
     line-height: 28px;
     font-size: 15px;
     font-weight: 400;
-    /*! letter-spacing: 1px; */
     width: 380px;
     margin: 0 0 76px 0;
     opacity: 0;
-    transform: translateY(15px);
+    transform: translateY(20px);
     transition: opacity 1s ease, transform 1s ease;
-    transition-delay: 0.15s;
+    transition-delay: 0.35s;
 }
 
 .baldtext
@@ -37,13 +32,12 @@
     font-size: 58px;
     width: 500px;
     font-weight: 400;
-    /*! letter-spacing: 3px; */
     line-height: 64px;
     margin: 0 0 44px 0;
     opacity: 0;
-    transform: translateY(15px);
+    transform: translateY(20px);
     transition: opacity 1s ease, transform 1s ease;
-    transition-delay: 0.15s;
+    transition-delay: 0.3s;
 }
 
 .main_title,
@@ -66,9 +60,9 @@
     transition: opacity 1s ease, transform 1s ease;
     transition-delay: 0.15s;
 }
+
 .header
 {
-    
     margin-top: 50px;
     overflow: hidden;
 }
@@ -80,46 +74,19 @@
     font-weight: normal;
 }
 
-
-.text, .baldtext
-{
-    /*! margin: 0 0 50px; */
-}
-
-
-
 .article_photo
 {
     float: right;
     opacity: 0;
-    transform: translateY(15px);
+    transform: translateY(25px);
     transition: opacity 1s ease, transform 1s ease;
-    transition-delay: 0.15s;
-}
-
-.link,
-a,
-a:visited
-{
-    color: #ea2a2a;
-}
-
-.link:hover
-{
-    color: #bf0808;
-}
-
-.full_screen_photo
-{
-    margin: 20px 0 40px;
-    width: 100%;
+    transition-delay: 0.4s;
 }
 
 .article_button
 {
     display: inline-block;
     border-radius: 25px;
-    /*! line-height: 64px; */
     color: #fff;
     background-color: #233fe2;
     box-shadow: none;
@@ -134,13 +101,13 @@ a:visited
     opacity: 0;
     transform: translateY(15px);
     transition: opacity 1s ease, transform 1s ease;
-    transition-delay: 0.15s;
-    /*! text-align: center; */
+    transition-delay: 0.35s;
 }
+
 .account_button
 {
     display: inline-block;
-    /*! padding: 5px 20px; */
+
     border-radius: 25px;
     background-color: #fff;
     box-shadow: none;
@@ -157,13 +124,12 @@ a:visited
     opacity: 0;
     transform: translateY(15px);
     transition: opacity 1s ease, transform 1s ease;
-    transition-delay: 0.15s;
+    transition-delay: 0.35s;
 }
 
 .button,
 .header_account_button
 {
-    /*! line-height: 64px; */
     color: #060c31;
     font-size: 13px;
     font-family: 'Lato', sans-serif;
@@ -173,72 +139,67 @@ a:visited
     margin: 0 20px 0 20px;
     font-weight: 700;
 }
+
 .header_account_button {
   display: inline-block;
     border-radius: 25px;
     background-color: #fff;
     box-shadow: none;
     border: 2px solid #ffb0b1;
-    /*! margin: 0 20px 0 0; */
     outline: none;
     width: 150px;
     height: 46px;
 }
 
 .article_button:hover {
-  background-color: #030859;
+    background-color: #030859;
 }
 
 .account_button:hover {
-  background-color: #fdeafc;
+    background-color: #fdeafc;
 }
 
 .header_account_button:hover {
-  background-color: #fdeafc;
+    background-color: #fdeafc;
 }
 
-
-span {
-    background: tomato;
-    color: #fff;
-}
 .header_buttons {
-  float: right;
-  line-height: 64px;
-  margin-right: 80px;
-  overflow: hidden;
-  opacity: 0;
-  transform: translateY(15px);
-  transition: opacity 1s ease, transform 1s ease;
-  transition-delay: 0.15s;
+    float: right;
+    line-height: 64px;
+    margin-right: 80px;
+    opacity: 0;
+    transform: translateY(15px);
+    transition: opacity 1s ease, transform 1s ease;
+    transition-delay: 0.2s;
 }
+
 .picture {
-  display: inline-block;
-  margin: 169px 0 0 0;
-  /*! float: right; */
-  overflow: hidden;
+    display: inline-block;
+    margin: 169px 0 0 0;
 }
+
 .clear {
-  clear: both;
+    clear: both;  
 }
 
 .main {
-  margin-bottom: 191px;
-  overflow: hidden;
+    margin-bottom: 191px;
 }
+
 .footer {
-  margin-right: 87px;
-  float: right;
-  margin-bottom: 40px;
-  overflow: hidden;
+    margin-right: 87px;
+    float: right;
+    margin-bottom: 40px;
     opacity: 0;
     transform: translateY(15px);
-  transition: opacity 1s ease, transform 1s ease;
-  transition-delay: 0.15s;
+    transition: opacity 1s ease, transform 1s ease;
+    transition-delay: 0.5s;
 }
+
 .photo {
-  margin: 0 50px;
+    margin: 0 50px;
 }
+
 body.loaded .main_title,
 body.loaded .header_buttons,
 body.loaded .baldtext,
@@ -247,7 +208,6 @@ body.loaded .account_button,
 body.loaded .article_button,
 body.loaded .article_photo,
 body.loaded .footer {
-    
     opacity: 1;
     transform: translateY(0);
 }
